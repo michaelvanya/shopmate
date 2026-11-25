@@ -2,7 +2,7 @@ import Link from "next/link";
 import { PanelsTopLeft } from "lucide-react";
 
 const studioUrl =
-  process.env.NEXT_PUBLIC_SANITY_STUDIO_URL || "http://localhost:3333/studio";
+  process.env.NEXT_SANITY_STUDIO_URL || "http://localhost:3333/studio";
 
 const UserMenu = () => {
   return (
